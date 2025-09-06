@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>🎂 Happy Birthday 🎂</title>
+  <style>
+    body {
+         background: #0f0a1e; /* 深夜紫黑背景 */
+      font-family: "Comic Sans MS", "Arial", sans-serif;
+      text-align: center;
+      padding: 40px;
+      color: #f5c0f0; /* 柔和粉紫文字 */
+    }
+
+    .cat {
+      font-size: 32px;
+      white-space: pre;
+      line-height: 1.2;
+    }
+
+    .smoke {
+      position: relative;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .ring {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+      opacity: 0;
+      animation: floatUp 4s infinite;
+    }
+
+    .ring:nth-child(1) { animation-delay: 0s; }
+    .ring:nth-child(2) { animation-delay: 1s; }
+    .ring:nth-child(3) { animation-delay: 2s; }
+    .ring:nth-child(4) { animation-delay: 3s; }
+
+    @keyframes floatUp {
+      0% { bottom: 0; opacity: 0; }
+      20% { opacity: 1; }
+      100% { bottom: 120px; opacity: 0; }
+    }
+
+    .wishes {
+      margin-top: 160px;
+      font-size: 22px;
+      line-height: 1.6;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Happy Birthday, 阿熊 👾</h1>
+
+  <div class="cat">
+    /\     /\ 
+   ( =^‥^= ) 
+    <span class="smoke-ring">~ o</span>
+    (") 🚬  (")  
+  </div>
+
+  <style>
+    .smoke-ring {
+      display: inline-block;
+      position: relative;
+      animation: puff 4s infinite;
+      font-family: monospace;
+    }
+
+    @keyframes puff {
+      0%   { opacity: 0; bottom: 0; left: 0; }
+      10%  { opacity: 1; }
+      50%  { transform: translate(30px,-40px) scale(1.2); opacity: 0.6; }
+      100% { transform: translate(60px,-80px) scale(1.5); opacity: 0; }
+    }
+  </style>
+
+  <head>
+  <style>
+    .wishes {
+      margin-top: 30px;
+      font-size: 20px;
+      line-height: 1.6;
+      color: #fefefe; /* 柔和白色 */
+      text-shadow: 0 0 6px #ffffff44, 0 0 12px #ffffff22; /* 轻微光晕，柔和感 */
+    }
+  </style>
+</head>
+<body>
+  <div class="wishes">
+    <p>💻 代码可以运行</p>
+    <p>🎨 艺术可以闪光</p>
+    <p>🎇 烟灰可以收在猫猫盒子上</p>
+    <p>🐈 A good mood while walking 🐈！</p>
+  </div>
+</body>
+</html>
